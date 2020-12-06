@@ -1,0 +1,13 @@
+{
+  "hostname" : "",
+  "username" : "",
+  "key" : "C:\\Project\\key\\key_private.txt",
+  "stagingpath" : "C:\\Project\\staging\\",
+  "remotepath":"//",
+  "archivepath":"C:\\Project\\archive\\",
+   "db_hostname":"",
+   "db_user":"",
+   "db_port":"",
+   "db_password":"",
+   "database_name":""
+  }

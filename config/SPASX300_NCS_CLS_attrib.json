@@ -1,0 +1,322 @@
+{
+  "source_detail":{
+	"delimiter":"\t",
+	"has_header":true,
+	"has_trailer":true,
+	"tail_record_count_pattern":"LINE COUNT:",
+	"tail_field_delimiter":"\t",
+	"line_terminator":"\n",
+	"columns" :[
+		{
+			"field_name":"INDEX NAME",
+			"data_type":"string",
+			"key":false,
+			"nullable":true,
+			"max_length":15,
+			"date_format":""
+		},
+		{
+			"field_name":"INDEX CODE",
+			"data_type":"int",
+			"key":false,	
+			"nullable":true,
+			"max_length":"",
+			"date_format":""
+		},
+		{
+			"field_name":"INDEX KEY",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":30,
+			"date_format":""
+		},
+		{
+			"field_name":"EFFECTIVE DATE",
+			"data_type":"date",
+			"key":false,	
+			"nullable":true,
+			"max_length":8,
+			"date_format":"YYYYMMDD"
+		},
+		{
+			"field_name":"COMPANY",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":50,
+			"date_format":""
+		},
+		{
+			"field_name":"RIC",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":6,
+			"date_format":""
+		},
+		{
+			"field_name":"BLOOMBERG TICKER",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":6,
+			"date_format":""
+		},
+		{
+			"field_name":"CUSIP",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":20,
+			"date_format":""
+		},
+		{
+			"field_name":"ISIN",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":15,
+			"date_format":""
+		},
+		{
+			"field_name":"SEDOL",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":20,
+			"date_format":""
+		},
+		{
+			"field_name":"TICKER",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":5,
+			"date_format":""
+		},
+		{
+			"field_name":"GV KEY",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":15,
+			"date_format":""
+		},
+		{
+			"field_name":"STOCK KEY",
+			"data_type":"int",
+			"key":false,	
+			"nullable":true,
+			"max_length":"",
+			"date_format":""
+		},
+		{
+			"field_name":"GICS CODE",
+			"data_type":"int",
+			"key":false,	
+			"nullable":true,
+			"max_length":"",
+			"date_format":""
+		},
+		{
+			"field_name":"DJI INDUSTRY CODE",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":25,
+			"date_format":""
+		},
+		{
+			"field_name":"ALTERNATE CLASSIFICATION CODE",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":25,
+			"date_format":""
+		},
+		{
+			"field_name":"MIC",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":20,
+			"date_format":""
+		},
+		{
+			"field_name":"COUNTRY OF DOMICILE",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":5,
+			"date_format":""
+		},
+		{
+			"field_name":"COUNTRY OF LISTING",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":5,
+			"date_format":""
+		},
+		{
+			"field_name":"REGION",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":20,
+			"date_format":""
+		},
+		{
+			"field_name":"SIZE",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":20,
+			"date_format":""
+		},
+		{
+			"field_name":"CAP RANGE",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":20,
+			"date_format":""
+		},
+		{
+			"field_name":"CURRENCY CODE",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":3,
+			"date_format":""
+		},
+		{
+			"field_name":"LOCAL PRICE",
+			"data_type":"decimal",
+			"key":false,	
+			"nullable":true,
+			"max_length":10,
+			"date_format":""
+		},
+		{
+			"field_name":"FX RATE",
+			"data_type":"decimal",
+			"key":false,	
+			"nullable":true,
+			"max_length":8,
+			"date_format":""
+		},
+		{
+			"field_name":"SHARES OUTSTANDING",
+			"data_type":"int",
+			"key":false,	
+			"nullable":true,
+			"max_length":"",
+			"date_format":""
+		},
+		{
+			"field_name":"MARKET CAP",
+			"data_type":"int",
+			"key":false,	
+			"nullable":true,
+			"max_length":"",
+			"date_format":""
+		},
+		{
+			"field_name":"IWF",
+			"data_type":"decimal",
+			"key":false,	
+			"nullable":true,
+			"max_length":3,
+			"date_format":""
+		},
+		{
+			"field_name":"AWF",
+			"data_type":"int",
+			"key":false,	
+			"nullable":true,
+			"max_length":"",
+			"date_format":""
+		},
+		{
+			"field_name":"GROWTH",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":20,
+			"date_format":""
+		},
+		{
+			"field_name":"VALUE",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":20,
+			"date_format":""
+		},
+		{
+			"field_name":"INDEX SHARES",
+			"data_type":"int",
+			"key":false,	
+			"nullable":true,
+			"max_length":"",
+			"date_format":""
+		},
+		{
+			"field_name":"INDEX MARKET CAP",
+			"data_type":"int",
+			"key":false,	
+			"nullable":true,
+			"max_length":"",
+			"date_format":""
+		},
+		{
+			"field_name":"INDEX WEIGHT",
+			"data_type":"decimal",
+			"key":false,	
+			"nullable":true,
+			"max_length":30,
+			"date_format":""
+		},
+		{
+			"field_name":"DAILY PRICE RETURN",
+			"data_type":"decimal",
+			"key":false,	
+			"nullable":true,
+			"max_length":30,
+			"date_format":""
+		},
+		{
+			"field_name":"DAILY TOTAL RETURN",
+			"data_type":"decimal",
+			"key":false,	
+			"nullable":true,
+			"max_length":30,
+			"date_format":""
+		},
+		{
+			"field_name":"DIVIDEND",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":20,
+			"date_format":""
+		},
+		{
+			"field_name":"NET DIVIDEND",
+			"data_type":"string",
+			"key":false,	
+			"nullable":true,
+			"max_length":20,
+			"date_format":""
+		}
+		
+	]	
+
+  },
+  "target_detail":{
+     "staging_table":"spasx300_staging" ,
+	 "target_table_proc":"public.spasx300_load_to_target();"
+  }	
+}
