@@ -2,7 +2,8 @@
 The Project/Repository has the configuration and the src code components to extract the index source files from remote server and load it into a database for users to access
 
 
-#SRC
+
+#src
 
 The src folder has the source code required to perform the extract/transform/load process. Following are the python files 
     
@@ -21,9 +22,14 @@ The src folder has the source code required to perform the extract/transform/loa
    3. get_sp_asx300.py - This python file implements the actual processing of the SP ASX index file using the framework(InvestmentFrame) and the configuration files.
    
    
-   #Config
+  #Config
    
-   The config folder 
+The config folder consist of the various configuration required for the project
+   
+   1. etlconfig - The etlconfig has various configuration details like remote server details, database server details etc. that can be used by multiple processes invovled in the                   ETL process
+   2. SPASX300_NCS_CLS_attrib - This config file is specific to the source file that needs to be processed. It has details of the various fields, field/record separator, 
+                                database table and procedure associated with the file
+                                
 
     
 
