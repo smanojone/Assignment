@@ -41,7 +41,9 @@ The config folder consist of the various configuration required for the project
                                   multiple rows in scenarios when for a day, the file has been updated more than once in source system
                                   
   
-     
+     Improvement Areas
+     1. The panda dataframes were used to bring in  attribute level data quality checks, duplicate checks etc, but couldnt implement the data quality checks
+     2. Removing the old files/data based on the compliance/legal/organisation requirement.
                                 
 
     
